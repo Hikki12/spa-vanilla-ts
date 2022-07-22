@@ -14,7 +14,7 @@ const renderList = (array = []) => {
 
 export const CharactersList = (array = []) => {
     const view = `
-        <div class="grid md:grid-cols-2 gap-4 place-content-center">
+        <div class="grid md:grid-cols-2 gap-5 place-content-center">
             ${renderList(array)}
         </div>
     `;
